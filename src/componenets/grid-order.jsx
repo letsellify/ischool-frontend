@@ -1,4 +1,4 @@
-export default function Order({contents}){
+export default function Order({contents, header, btn_style}){
     
     return(
         <div className="flex flex-col gap-40">
@@ -10,15 +10,13 @@ export default function Order({contents}){
                     <img src={content.image} alt="" />
                 </div>
                 <div className="flex flex-col gap-8 text-[20px]">
-                    <p className="text-[22px] text-[#238949]">{content.header}</p>
+                    <p className={`text-[22px] text-${header}`}>{content.header}</p>
                     <small>{content.body}</small>
                     <div className="flex items-center gap-8">
-                    <a href="#" className="bg-gradient-to-r from-[#238949] to-[#153B66] text-white 
-                    font-normal py-3 px-6 rounded-full hover:from-green-600 hover:to-teal-500">
+                    <a href="#" className={btn_style}>
                         {content.btn}
                     </a>
-                    <a href="#" className={`${!content.btns && "hidden" } bg-gradient-to-r from-[#238949] to-[#153B66] text-white 
-                    font-normal py-3 px-6 rounded-full hover:from-green-600 hover:to-teal-500`}>
+                    <a href="#" className={`${!content.btns && "hidden" } ${btn_style}`}>
                         {content.btns}
                     </a>
                     </div>

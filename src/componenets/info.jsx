@@ -5,6 +5,11 @@ import one from "../assets/group_1.png";
 import two from "../assets/group_2.png";
 import three from "../assets/group_3.png";
 import Order from "./grid-order";
+import { LuFacebook } from "react-icons/lu";
+import { CiYoutube } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { TbBrandTiktok } from "react-icons/tb";
+
 
 export default function Info(){
     const contents = [
@@ -56,7 +61,9 @@ export default function Info(){
                 </div>
             </div>
         </div>
-        <Order contents={contents}/>
+        <Order contents={contents} header="[#238949]" 
+        btn_style="bg-gradient-to-r from-[#238949] to-[#153B66] text-white 
+        font-normal py-3 px-6 rounded-full hover:from-green-600 hover:to-teal-500"/>
     </div>
     )
 }

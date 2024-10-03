@@ -10,14 +10,14 @@ export default function ToggleBoard({contents}){
         }
       };
     return(
-        <div className="grid grid-cols-2 gap-x-40 gap-y-4">
+        <div className="grid grid-cols-2 gap-x-40 gap-y-4 text-[20px]">
             {contents.map((content, index)=>(
             <div>
                 <div 
                 className="flex justify-between items-center px-6 py-6 border cursor-pointer hover:shadow-md"
                 onClick={()=>handleDropdownClick(index)}>
                     <small>{content.btn}</small>
-                    <CiCirclePlus/>
+                    <CiCirclePlus size={32}/>
                 </div>
                 {index === active &&
                 <div className="p-4 shadow-md">
