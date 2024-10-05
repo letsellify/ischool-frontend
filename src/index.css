@@ -33,3 +33,10 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-image: url("assets/mobileBg.png");
+  }
+}
+
+

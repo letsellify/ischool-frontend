@@ -2,8 +2,8 @@ import green from "../assets/green_1.png";
 import red from "../assets/red_1.png";
 export default function Cards(){
     return(
-        <div className="bg-[#FBFBFB]  px-24 py-32">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="bg-[#FBFBFB]  xl:px-24 px-8 py-32">
+            <div className="xl:grid flex flex-col gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:gap-6">
        
         <div className="bg-white shadow-2xl border rounded-2xl px-6 text-center py-12 ">
            
@@ -17,7 +17,7 @@ export default function Cards(){
         </div>
 
         
-        <div className="bg-white shadow-2xl border rounded-2xl px-6 text-center py-12 mt-12 h-full">
+        <div className="bg-white shadow-2xl border rounded-2xl px-6 text-center py-12 xl:mt-12 h-full">
           
             <h2 className="text-xl font-bold mb-2">Mana-Mana School Services’ Mission</h2>
             <div className="py-8">
@@ -41,7 +41,7 @@ export default function Cards(){
         </div>
 
        
-        <div className="bg-white shadow-2xl border rounded-2xl px-6 text-center py-12 mt-12 h-full">
+        <div className="bg-white shadow-2xl border rounded-2xl px-6 text-center py-12 xl:mt-12 h-full">
             
             <h2 className="text-xl font-bold mb-2">iSchools Media’s Mission</h2>
             <div className="py-8">

@@ -36,8 +36,8 @@ export default function Info(){
         },
     ]
     return(
-    <div className="px-24 py-32 flex flex-col gap-40">
-        <div className="grid grid-cols-2 items-center text-[20px]">
+    <div className="xl:px-24 px-8 py-32 flex flex-col gap-40">
+        <div className="xl:grid grid-cols-2 flex flex-col gap-8 items-center text-[20px]">
             <div className="w-full">
                 <img src={student} alt="" />
             </div>
@@ -48,8 +48,19 @@ export default function Info(){
                 organizations offering innovative education-focused
                 programs and events
                 </small>
-                <div className="flex items-4 items-center">
-
+                <div className="flex items-4 items-center gap-4">
+                    <a href="https://www.facebook.com/profile.php?id=61566470032420&mibextid=ZbWKwL">
+                        <LuFacebook size={24} className="cursor-pointer"/>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCvMVlZDtQcvciQhq4TW333A ">
+                        <CiYoutube size={24} className="cursor-pointer"/>
+                    </a>
+                    <a href="https://www.instagram.com/ischools_media?igsh=MTU5Mnc4cnJmcWZsOQ==">
+                        <FaInstagram size={24} className="cursor-pointer"/>
+                    </a>
+                    <a href="https://www.tiktok.com/@ischools_media?is_from_webapp=1&sender_device=pc">
+                        <TbBrandTiktok size={24} className="cursor-pointer"/>
+                    </a>
                 </div>
                 <small>Don’t forget to subscribe and follow us</small>
                 <div className="flex flex-col gap-2 text-center items-center w-fit">
