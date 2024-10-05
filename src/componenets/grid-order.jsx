@@ -13,10 +13,10 @@ export default function Order({contents, header, btn_style, link}){
                     <p className={`text-[22px] text-${header}`}>{content.header}</p>
                     <small>{content.body}</small>
                     <div className="flex items-center gap-8">
-                    <a href={link} className={`${btn_style} xl:flex hidden`}>
+                    <a href={link} className={`${btn_style} xl:flex xl:text-[20px] text-[12px]`}>
                         {content.btn}
                     </a>
-                    <a href="#" className={`${!content.btns && "hidden" } ${btn_style}`}>
+                    <a href="#" className={`${!content.btns && "hidden" } ${btn_style} xl:text-[20px] text-[12px]`}>
                         {content.btns}
                     </a>
                     </div>

@@ -10,7 +10,7 @@ export default function Motion() {
 
    
   return (
-    <div className="wrapper w-full overflow-hidden border flex items-center justify-center pt-32" >
+    <div className="wrapper w-full overflow-hidden border flex items-center justify-center xl:pt-32 pt-24" >
         <div
         className="slider overflow-hidden w-full text-center"
       >

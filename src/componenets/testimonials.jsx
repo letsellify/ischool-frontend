@@ -44,7 +44,7 @@ export default function Testimonials(){
             <div className="xl:grid grid-cols-3 flex flex-col gap-12">
                 {
                     contents.map((content, index)=>(
-                        <div className="p-12 flex flex-col gap-12 shadow-sm">
+                        <div className="xl:p-12 p-6 flex flex-col gap-12 shadow-sm">
                             <small>{content.body}</small>
                             <div className="flex gap-4 items-center">
                                 <img src={content.image} alt="" />

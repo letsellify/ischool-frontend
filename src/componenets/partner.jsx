@@ -20,7 +20,7 @@ export default function Partner(){
             header : "Submit Your Content",
             body : `Do you have already recorded content with high-quality, and you want us to publish it? Contact us, and we will review it. If it meets our standards, we will publish it at zero cost. You will get increased visibility and recognition of values.`,
             btn : "Become a Partner",
-            link: "https://forms.gle/pR2fTNTuk4qP5XLNA"
+            link: "https://forms.gle/pR2fTNTuk4qP5XLNA",
         },
         {
             image : three,
