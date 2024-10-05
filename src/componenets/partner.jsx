@@ -12,32 +12,34 @@ export default function Partner(){
             body : `Are you a school or organization looking to host high-impact, high-value, and high-quality education focused
                     programs and events in line with ours? Invite us to offer
                     you video production, editing, and publication services at zero cost.`,
-            btn : "Invite Us Now"
+            btn : "Become a Partner",
+            link: "https://forms.gle/pR2fTNTuk4qP5XLNA"
         },
         {
             image : two,
             header : "Submit Your Content",
             body : `Do you have already recorded content with high-quality, and you want us to publish it? Contact us, and we will review it. If it meets our standards, we will publish it at zero cost. You will get increased visibility and recognition of values.`,
-            btn : "Submit Here"
+            btn : "Become a Partner",
+            link: "https://forms.gle/pR2fTNTuk4qP5XLNA"
         },
         {
             image : three,
             header : "Advertise With Us",
             body : `Want a perfect place to advertise to a large audience of education policy makers and administrators, students, and their parents, teachers, and education enthusiasts? iSchools Media is a perfect destination.`,
-            btn : "Book a Slot Now",
-            btns : "Chat With Us"
+            btn : "Become a Partner",
+            link: "https://forms.gle/pR2fTNTuk4qP5XLNA"
         },
         {
             image : four,
             header : "Advertise With Us",
             body : `Want a perfect place to advertise to a large audience of education policy makers and administrators, students, and their parents, teachers, and education enthusiasts? iSchools Media is a perfect destination.`,
-            btn : "Book a Slot Now",
-            btns : "Chat With Us"
+            btn : "Become a Partner",
+            link: "https://forms.gle/pR2fTNTuk4qP5XLNA"
         },
     ]
     return(
-        <div className="px-24 py-32 bg-[#238949] text-white flex flex-col gap-32">
-            <div className="text-center px-44 flex flex-col gap-4">
+        <div className="xl:px-24 px-8 py-32 bg-[#238949] text-white flex flex-col gap-32">
+            <div className="text-center xl:px-44 flex flex-col gap-4">
                 <p className="text-[35px]">Be Our Partners</p>
                 <small>
                 Join the creative economy forces with iSchools Media to shape the future of education and inspire

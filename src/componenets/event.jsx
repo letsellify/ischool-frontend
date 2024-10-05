@@ -67,8 +67,8 @@ export default function Event(){
         },
     ] 
     return(
-        <div className="flex flex-col gap-32 text-center px-24 py-12 text-[20px]">
-            <div className="px-44 flex flex-col gap-4">
+        <div className="flex flex-col gap-32 text-center xl:px-24 px-8 py-12 text-[20px]">
+            <div className="xl:px-44 flex flex-col gap-4">
                 <h1 className="text-[#238949] text-[32px]">Programs & Events</h1>
                 <small>
                 Here are our most preferred programs to be entertained. You can still extend an invite if your program is not

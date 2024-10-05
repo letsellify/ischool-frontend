@@ -10,7 +10,7 @@ export default function ToggleBoard({contents}){
         }
       };
     return(
-        <div className="grid grid-cols-2 gap-x-40 gap-y-4 text-[20px]">
+        <div className="xl:grid grid-cols-2 flex flex-col gap-x-40 gap-y-4 text-[20px]">
             {contents.map((content, index)=>(
             <div>
                 <div 

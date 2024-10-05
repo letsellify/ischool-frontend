@@ -44,7 +44,7 @@ export default function FAQ(){
         },
     ] 
     return(
-        <div className="flex flex-col gap-32 px-24 py-32 text-center">
+        <div className="flex flex-col gap-32 xl:px-24 px-8 py-32 text-center">
             <p className="text-[35px] text-[#238949]">Frequently Asked Questions</p>
             <ToggleBoard contents={contents}/>
         </div>

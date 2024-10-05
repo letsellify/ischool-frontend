@@ -19,20 +19,23 @@ export default function Info(){
             body : `Are you a school or organization looking to host high-impact, high-value, and high-quality education focused
                     programs and events in line with ours? Invite us to offer
                     you video production, editing, and publication services at zero cost.`,
-            btn : "Invite Us Now"
+            btn : "Invite Us Now",
+            link : "https://forms.gle/eJVWszr7h9p2MEDPA"
         },
         {
             image : two,
             header : "Submit Your Content",
             body : `Do you have already recorded content with high-quality, and you want us to publish it? Contact us, and we will review it. If it meets our standards, we will publish it at zero cost. You will get increased visibility and recognition of values.`,
-            btn : "Submit Here"
+            btn : "Submit Here",
+            link : "https://forms.gle/5Jg7nnpCjtZ3Hn5F8"
         },
         {
             image : three,
             header : "Advertise With Us",
             body : `Want a perfect place to advertise to a large audience of education policy makers and administrators, students, and their parents, teachers, and education enthusiasts? iSchools Media is a perfect destination.`,
             btn : "Book a Slot Now",
-            btns : "Chat With Us"
+            btns : "Chat With Us",
+            link : "https://wa.me/2347064747942"
         },
     ]
     return(

@@ -36,12 +36,12 @@ export default function Testimonials(){
         }
     ]
     return(
-        <div className="flex flex-col gap-32 px-24 py-32">
+        <div className="flex flex-col gap-32 xl:px-24 px-8 py-32">
             <div className="text-center">
                 <p className="text-[#238949] text-[25px]">Testimonial</p>
                 <p className="text-[31px]">Hear What People Are Saying About Us</p>
             </div>
-            <div className="grid grid-cols-3 gap-12">
+            <div className="xl:grid grid-cols-3 flex flex-col gap-12">
                 {
                     contents.map((content, index)=>(
                         <div className="p-12 flex flex-col gap-12 shadow-sm">
