@@ -12,15 +12,15 @@ export default function ToggleBoard({contents}){
         }
       };
     return(
-        <div className="xl:grid grid-cols-2 flex flex-col gap-x-40 gap-y-4 text-[20px]">
+        <div className="xl:grid grid-cols-2 flex flex-col gap-x-40 gap-y-4 2x:text-[20px] text-[12px]">
             {contents.map((content, index)=>(
             <div>
                 <div 
-                className="flex justify-between items-center px-6 py-6 border cursor-pointer hover:shadow-md"
+                className="flex justify-between items-center gap-2 xl:px-6 px-3 py-6 border cursor-pointer hover:shadow-md"
                 onClick={()=>handleDropdownClick(index)}>
                     <small>{content.btn}</small>
                     {index !== active ?
-                    <CiCirclePlus size={32}/>
+                    <CiCirclePlus/>
                     :
                     <FiMinus/>
                 }
