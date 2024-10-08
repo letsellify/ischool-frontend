@@ -67,7 +67,7 @@ export default function Event(){
         },
     ] 
     return(
-        <div className="flex flex-col gap-32 text-center xl:px-24 px-8 py-12 text-[20px]">
+        <section id="event" className="flex flex-col gap-32 text-center xl:px-24 px-8 py-12 text-[20px]">
             <div className="xl:px-44 flex flex-col gap-4">
                 <h1 className="text-[#238949] text-[32px]">Programs & Events</h1>
                 <small>
@@ -76,6 +76,6 @@ export default function Event(){
                 </small>
             </div>
             <ToggleBoard contents={contents}/>
-        </div>
+        </section>
     )
 }

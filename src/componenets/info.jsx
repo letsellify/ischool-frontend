@@ -39,7 +39,7 @@ export default function Info(){
         },
     ]
     return(
-    <div className="xl:px-24 px-8 py-32 flex flex-col gap-40">
+    <section id="service" className="xl:px-24 px-8 py-32 flex flex-col gap-40">
         <div className="xl:grid grid-cols-2 flex flex-col gap-8 items-center text-[20px]">
             <div className="w-full">
                 <img src={student} alt="" />
@@ -78,6 +78,6 @@ export default function Info(){
         <Order contents={contents} header="[#238949]" 
         btn_style="bg-gradient-to-r from-[#238949] to-[#153B66] text-white 
         font-normal py-3 px-6 rounded-full hover:from-green-600 hover:to-teal-500"/>
-    </div>
+    </section>
     )
 }

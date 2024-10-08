@@ -1,5 +1,7 @@
 import { CiCirclePlus } from "react-icons/ci";
 import { useState } from "react";
+import { FiMinus } from "react-icons/fi";
+
 export default function ToggleBoard({contents}){
     const [active, setActive] = useState(null);
     const handleDropdownClick = (id) => {
@@ -17,7 +19,11 @@ export default function ToggleBoard({contents}){
                 className="flex justify-between items-center px-6 py-6 border cursor-pointer hover:shadow-md"
                 onClick={()=>handleDropdownClick(index)}>
                     <small>{content.btn}</small>
+                    {index !== active ?
                     <CiCirclePlus size={32}/>
+                    :
+                    <FiMinus/>
+                }
                 </div>
                 {index === active &&
                 <div className="p-4 shadow-md">
