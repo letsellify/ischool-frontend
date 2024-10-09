@@ -1,7 +1,7 @@
 export default function Hero(){
     return(
         <section id="home" className="hero xl:grid flex  xl:grid-cols-5 items-center xl:h-screen xl:py-4 py-32 mt-24">
-            <div className="col-span-3 flex flex-col gap-8 xlpx-24 px-8">
+            <div className="col-span-3 flex flex-col gap-8 xl:px-24 px-8">
                 <p className="text-[25px] xl:text-[57px]">iSchools Media</p>
                 <small className="xl:text-[21px] text-[14px]">
                 Powered by Mana-Mana School Services Limited is a pioneering
