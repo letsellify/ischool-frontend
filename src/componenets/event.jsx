@@ -51,7 +51,7 @@ export default function Event(){
         },
         {
             btn : "Cultural Exchange Programs",
-            detail : "Any event that highlights exceptional student projects, research, and innovations."
+            detail : "Any program that highlights national or international student exchange experiences and cultural immersion"
         },
         {
             btn : "Alumni Success Stories",
@@ -63,7 +63,7 @@ export default function Event(){
         },
         {
             btn : "Webinars and Open Classes",
-            detail : "Any event that highlights exceptional student projects, research, and innovations."
+            detail : "Exclusive programs that feature professionals to teach important topics and virtual excursions"
         },
     ] 
     return(

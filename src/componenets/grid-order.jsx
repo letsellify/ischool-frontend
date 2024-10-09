@@ -1,4 +1,4 @@
-export default function Order({contents, header, btn_style, link}){
+export default function Order({contents, header, btn_style}){
     
     return(
         <div className="flex flex-col gap-40">
@@ -13,10 +13,10 @@ export default function Order({contents, header, btn_style, link}){
                     <p className={`text-[22px] text-${header}`}>{content.header}</p>
                     <small>{content.body}</small>
                     <div className="flex items-center gap-8">
-                    <a href={link} className={`${btn_style} xl:flex xl:text-[20px] text-[12px] cursor-pointer shadow-lg`}>
+                    <a href={content.btns==="Chat With Us" ? "" : content.link} className={`${btn_style} xl:flex xl:text-[20px] text-[12px] cursor-pointer shadow-lg`}>
                         {content.btn}
                     </a>
-                    <a href="#" className={`${!content.btns && "hidden" } ${btn_style} xl:text-[20px] text-[12px] cursor-pointer shadow-lg`}>
+                    <a href={content.btns==="Chat With Us" && content.link} className={`${!content.btns && "hidden" } ${btn_style} xl:text-[20px] text-[12px] cursor-pointer shadow-lg`}>
                         {content.btns}
                     </a>
                     </div>
