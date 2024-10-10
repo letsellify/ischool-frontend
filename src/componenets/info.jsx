@@ -20,7 +20,7 @@ export default function Info(){
                     programs and events in line with ours? Invite us to offer
                     you video production, editing, and publication services at zero cost.`,
             btn : "Invite Us Now",
-            link : "https://forms.gle/eJVWszr7h9p2MEDPA"
+            link : "https://forms.gle/yGUAYH1sYN1nKmN67"
         },
         {
             image : two,

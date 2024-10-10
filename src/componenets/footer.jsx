@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import ischool from "../assets/ischool.png";
 import { LuFacebook } from "react-icons/lu";
 import { CiYoutube } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
@@ -38,20 +39,23 @@ export default function Footer(){
             <div className="xl:grid grid-cols-2 text-white">
                 <div className="flex flex-col gap-4">
                     <small>Visit Our Socials</small>
-                    <div className="flex xl:px-8 items-center gap-4">
-                        <img src={logo} width={100} alt="" />
+                    <div className="flex xl:px-2 items-center gap-4">
+                        <div className="flex items-center">
+                            <img src={logo} width={100} alt="" />
+                            <img src={ischool} width={60} alt="" />
+                        </div>
                         <a href="https://www.facebook.com/profile.php?id=61566470032420&mibextid=ZbWKwL">
-                        <LuFacebook size={24} className="cursor-pointer"/>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCvMVlZDtQcvciQhq4TW333A ">
-                        <CiYoutube size={24} className="cursor-pointer"/>
-                    </a>
-                    <a href="https://www.instagram.com/ischools_media?igsh=MTU5Mnc4cnJmcWZsOQ==">
-                        <FaInstagram size={24} className="cursor-pointer"/>
-                    </a>
-                    <a href="https://www.tiktok.com/@ischools_media?is_from_webapp=1&sender_device=pc">
-                        <TbBrandTiktok size={24} className="cursor-pointer"/>
-                    </a>
+                            <LuFacebook size={24} className="cursor-pointer"/>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCvMVlZDtQcvciQhq4TW333A ">
+                            <CiYoutube size={24} className="cursor-pointer"/>
+                        </a>
+                        <a href="https://www.instagram.com/ischools_media?igsh=MTU5Mnc4cnJmcWZsOQ==">
+                            <FaInstagram size={24} className="cursor-pointer"/>
+                        </a>
+                        <a href="https://www.tiktok.com/@ischools_media?is_from_webapp=1&sender_device=pc">
+                            <TbBrandTiktok size={24} className="cursor-pointer"/>
+                        </a>
                     </div>
                 </div>
                 <div className="xl:flex hidden flex-col gap-4 pl-32">
