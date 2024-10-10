@@ -20,7 +20,7 @@ export default function Info(){
                     programs and events in line with ours? Invite us to offer
                     you video production, editing, and publication services at zero cost.`,
             btn : "Invite Us Now",
-            link : "https://forms.gle/yGUAYH1sYN1nKmN67"
+            link : "https://forms.gle/eJVWszr7h9p2MEDPA"
         },
         {
             image : two,
@@ -35,7 +35,8 @@ export default function Info(){
             body : `Want a perfect place to advertise to a large audience of education policy makers and administrators, students, and their parents, teachers, and education enthusiasts? iSchools Media is a perfect destination.`,
             btn : "Book a Slot Now",
             btns : "Chat With Us",
-            link : "https://wa.me/2347064747942"
+            link : "https://forms.gle/yGUAYH1sYN1nKmN67",
+            links : "https://wa.me/2347064747942"
         },
     ]
     return(
